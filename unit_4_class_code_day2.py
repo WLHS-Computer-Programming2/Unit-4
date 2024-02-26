@@ -26,3 +26,5 @@ print(tuple_of_lists[0])
 # tuple_of_lists[0] = [-1,-2] invalid
 tuple_of_lists[0][0] = -1
 print(tuple_of_lists)
+big_tuple = ([1,2,3,4,5],[6,7,8])
+print(big_tuple[0][2:])
